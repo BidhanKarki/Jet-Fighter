@@ -1,3 +1,25 @@
-/bin/
-/eclipse-workspace/
+# Ignore Eclipse project files
+.settings/
+.classpath
+.project
 
+# Ignore compiled Java class files
+*.class
+
+# Ignore Java build output directories
+bin/
+target/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore Maven files
+.idea/
+*.iml
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
